@@ -1,0 +1,200 @@
+:root {
+    --primary-coloer: #8a1e78;
+    --off-white: hsla(220, 14%, 96%, 0.898);
+    --dark-gray: #6B7280;
+}
+
+/* 
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 4px;
+    box-sizing: border-box;
+    background-color: var(--off-white);
+   
+} */
+
+
+.OutputShow{
+   color: black;
+   font-size: xx-large;
+   font: bold;
+}
+
+
+
+
+
+
+.navigation {
+
+    color: white;
+    padding: 3rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 3.1rem;
+    font-family: "Megrim", cursive;
+}
+
+
+.navigation .nav-pills {
+    text-align: right;
+
+}
+
+/* about home ke text ka coloer change karne ke liye */
+.navigation .link {
+    color: white;
+}
+
+
+
+
+
+
+a,
+img {
+    width: 50px;
+    margin-top: 1px;
+
+    
+}
+
+
+
+.footer-header{
+   color:white;
+
+}
+footer {
+   margin-top: 10rem;
+   text-align: center;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-origin: padding-box;
+   color: wheat;
+   font-size: large;
+   margin-top: 20rem;
+   padding: 3rem;
+   border-bottom-left-radius: 1rem;
+   background-image: url(photos/footer-background.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   position: relative; 
+   overflow-y: auto; 
+
+}
+
+
+
+
+
+
+nav{
+   background-image: url(photos/footer-background.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   position: relative; 
+   overflow-y: auto; 
+  
+
+
+}
+
+
+
+
+.input-palinrome {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-coloer);
+    border-radius: 0.5rem;
+    width: 40%;
+    height: 80%;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+
+
+
+.input {
+    font-size: 16px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-coloer);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+ 
+ } 
+ 
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--primary-coloer);
+}
+
+.Output {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+.button {
+    background-color: var(--primary-coloer);
+    color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: flex;
+    margin-top: 1rem;
+
+}
+
+/* All output */
+/* .Output {
+    font-size: xx-large;
+    font: bolder;
+    margin-top: 2rem;
+    font-family: 'kalam', cursive;
+}
+
+
+link .link-active{
+   font-size: bold;
+
+    */
